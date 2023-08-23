@@ -1,14 +1,36 @@
-# ts-vite
+# @lbenie/linting
 
-TypeScript starter lib using vite
+My personal opinionated linting configuration for eslint prettier and stylelint
 
 ## Usage
 
-Replace all `lib` occurrence in `package.json` for your library name.
+Inside your project install the package
 
-Replace description in `package.json`.
+```bash
+npm i -D @lbenie/linting
+```
 
-Put your github alias in `.github/funding.yml` instead of mine.
+or
+
+```bash
+yarn add -D @lbenie/linting
+```
+
+Then create a `.eslintrc.js` file at the root of your project and add the following
+
+```js
+module.exports = {
+  extends: ['@lbenie/linting/eslint'],
+};
+```
+
+Then create a `.stylelintrc.js` file at the root of your project and add the following
+
+```js
+module.exports = {
+  extends: ['@lbenie/linting/stylelint'],
+};
+```
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

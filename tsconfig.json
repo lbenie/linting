@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "typeRoots": [
       "node_modules/@types"
     ],
-    "declarationDir": "dist/types",
-    "declaration": true
+    "declaration": true,
   },
   "include": [
-    "lib/**/*.ts",
+    "src",
+    "eslint/.eslintrc.js",
+    "stylelint/.stylelintrc.js"
   ],
   "exclude": [
     "node_modules",
-    "lib/sample/**/*.ts",
-    "lib/**/*.spec.ts"
   ]
 }
