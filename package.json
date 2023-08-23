@@ -18,10 +18,8 @@
   ],
   "main": "./eslint/.eslintrc.js",
   "exports": {
-    ".": {
-      "./eslint": "./eslint/.eslintrc.js",
-      "./stylelint": "./stylelint/.stylelint.js"
-    }
+    "./eslint": "./eslint/.eslintrc.js",
+    "./stylelint": "./stylelint/.stylelint.js"
   },
   "types": "dist/types/index.d.ts",
   "scripts": {
@@ -47,8 +45,6 @@
     "concurrently": "8.2.1",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "8.47.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-config-stylelint": "20.0.0",
     "eslint-plugin-functional": "6.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "postcss": "8.4.28",
