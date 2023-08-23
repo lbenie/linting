@@ -20,7 +20,7 @@ Then create a `.eslintrc.js` file at the root of your project and add the follow
 
 ```js
 module.exports = {
-  extends: ['@lbenie/linting/eslint'],
+  extends: [require.resolve('@lbenie/linting/eslint')],
 };
 ```
 
@@ -28,7 +28,7 @@ Then create a `.stylelintrc.js` file at the root of your project and add the fol
 
 ```js
 module.exports = {
-  extends: ['@lbenie/linting/stylelint'],
+  extends: [require.resolve('@lbenie/linting/stylelint')],
 };
 ```
 
