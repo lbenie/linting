@@ -1,4 +1,4 @@
-import type { Test } from "./somefile";
+import { Test } from "./somefile";
 
 export const phatArrows = () => {
   console.warn("this is a warnign");
