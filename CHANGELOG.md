@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/lbenie/linting/compare/v1.0.0...v1.1.0) (2023-08-23)
+
+
+### Features
+
+* consistent type import rule ([aeee802](https://github.com/lbenie/linting/commit/aeee802c1ab768c0f299cf073ca5f33e119972ca))
+
 # 1.0.0 (2023-08-23)
 
 
