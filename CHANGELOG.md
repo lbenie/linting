@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lbenie/linting/compare/v1.1.0...v1.1.1) (2023-08-23)
+
+
+### Bug Fixes
+
+* inline type imports ([48f3a05](https://github.com/lbenie/linting/commit/48f3a05506a9908bdd4f4124aa280641d53c9864))
+
 # [1.1.0](https://github.com/lbenie/linting/compare/v1.0.0...v1.1.0) (2023-08-23)
 
 
