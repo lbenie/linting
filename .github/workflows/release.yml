@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Build
+        run: |
+          cp -f .eslintrc.js ./eslint
+          cp -f .stylelintrc.js ./stylelint
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
         with:

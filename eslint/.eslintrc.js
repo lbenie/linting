@@ -8,10 +8,8 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       extends: [
         'eslint:recommended',
-        'prettier',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'stylelint'
       ],
       parserOptions: {
         parser: '@typescript-eslint/parser',
@@ -24,7 +22,7 @@ module.exports = {
           'error',
           { singleQuote: true, semi: false, trailingComma: 'all' },
         ],
-        '@typescript-eslint/consistent-type-imports': ['error'],
+        '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports'}],
         '@typescript-eslint/prefer-readonly': ['error'],
         '@typescript-eslint/prefer-readonly-parameter-types': ['error'],
         'functional/prefer-tacit': ['error'],

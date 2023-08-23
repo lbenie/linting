@@ -25,8 +25,7 @@
   "scripts": {
     "test": "concurrently -n vitest 'vitest --coverage'",
     "test:vitest": "vitest",
-    "lint": "concurrently -n eslint, stylelint 'eslint src' 'stylelint src/**/*.styl'",
-    "build": "vite build"
+    "lint": "concurrently -n eslint, stylelint 'eslint src' 'stylelint src/**/*.styl'"
   },
   "publishConfig": {
     "access": "public"
