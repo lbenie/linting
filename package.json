@@ -30,6 +30,9 @@
     "lint": "concurrently -n eslint, stylelint 'eslint src' 'stylelint src/**/*.styl'",
     "build": "vite build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
