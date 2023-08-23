@@ -24,7 +24,7 @@ module.exports = {
           'error',
           { singleQuote: true, semi: false, trailingComma: 'all' },
         ],
-        '@typescript-eslint/consistent-type-imports': ['error'],
+        '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports'}],
         '@typescript-eslint/prefer-readonly': ['error'],
         '@typescript-eslint/prefer-readonly-parameter-types': ['error'],
         'functional/prefer-tacit': ['error'],
