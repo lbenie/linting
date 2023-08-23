@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/lbenie/linting/compare/v1.1.3...v1.1.4) (2023-08-23)
+
+
+### Bug Fixes
+
+* properly exports files ([c20eb6b](https://github.com/lbenie/linting/commit/c20eb6bf2288b8585d1d914ecd9a3caeb26a30f5))
+
 ## [1.1.3](https://github.com/lbenie/linting/compare/v1.1.2...v1.1.3) (2023-08-23)
 
 
