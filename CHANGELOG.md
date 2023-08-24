@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/lbenie/linting/compare/v1.1.4...v1.1.5) (2023-08-24)
+
+
+### Bug Fixes
+
+* properly add dependencies to the package so consumers dont have to deal with it ([0aa9eef](https://github.com/lbenie/linting/commit/0aa9eefe2db65ba661440dd458fbe4c43092fc40))
+
 ## [1.1.4](https://github.com/lbenie/linting/compare/v1.1.3...v1.1.4) (2023-08-23)
 
 
