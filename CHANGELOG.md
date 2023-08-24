@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/lbenie/linting/compare/v1.1.5...v1.1.6) (2023-08-24)
+
+
+### Bug Fixes
+
+* export stylelint as a .stylelint.js so node properly resolves it ([3e745f1](https://github.com/lbenie/linting/commit/3e745f1d47e2cddd233185951c4b5600b18162d1))
+
 ## [1.1.5](https://github.com/lbenie/linting/compare/v1.1.4...v1.1.5) (2023-08-24)
 
 
