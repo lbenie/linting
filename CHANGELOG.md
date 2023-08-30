@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/lbenie/linting/compare/v1.3.0...v1.3.1) (2023-08-30)
+
+
+### Bug Fixes
+
+* remove prettier for astro files ([fa0128f](https://github.com/lbenie/linting/commit/fa0128fe31ca5e5d2a58eecc2785ea3d73692884))
+
 # [1.3.0](https://github.com/lbenie/linting/compare/v1.2.2...v1.3.0) (2023-08-30)
 
 
