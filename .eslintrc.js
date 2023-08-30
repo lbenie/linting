@@ -87,6 +87,7 @@ module.exports = {
         'plugin:astro/recommended'
       ],
       parserOptions: {
+        project: ['./tsconfig.json'],
         extraFileExtensions: ['.astro'],
       },
       rules: {
