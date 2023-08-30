@@ -10,6 +10,8 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:jsx-a11y/recommended',
+        'plugin:lit-a11y/recommended',
       ],
       parserOptions: {
         parser: '@typescript-eslint/parser',
@@ -34,7 +36,7 @@ module.exports = {
         browser: true,
         node: true,
       },
-      plugins: ['prettier', '@typescript-eslint', 'functional'],
+      plugins: ['prettier', '@typescript-eslint', 'functional', 'jsx-a11y', 'lit-a11y'],
     },
   ],
 }
