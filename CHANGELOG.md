@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/lbenie/linting/compare/v1.3.1...v1.3.2) (2023-08-30)
+
+
+### Bug Fixes
+
+* add astro tsconfig reference ([53311ca](https://github.com/lbenie/linting/commit/53311caab8d84a79b8863953b648b519b0642b48))
+
 ## [1.3.1](https://github.com/lbenie/linting/compare/v1.3.0...v1.3.1) (2023-08-30)
 
 
