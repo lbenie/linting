@@ -8,9 +8,13 @@
       "node_modules/@types"
     ],
     "declaration": true,
+    "lib": [
+      "ESNext"
+    ]
   },
   "include": [
-    "src"
+    "src",
+    ".eslintrc.js",
   ],
   "exclude": [
     "node_modules",

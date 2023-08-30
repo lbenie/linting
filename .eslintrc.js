@@ -1,42 +1,102 @@
 /**
- * @type {import('eslint').CLIEngine.Options}
+ * @type {import('eslint').Linter.Config['rules']}
+ */
+const tsRules = {
+  '@typescript-eslint/no-unused-vars': 'off',
+  '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports'}],
+  '@typescript-eslint/prefer-readonly': ['error'],
+  '@typescript-eslint/prefer-readonly-parameter-types': ['error'],
+}
+
+/**
+ * @type {import('eslint').Linter.Config['rules']}
+ */
+const functionalrules = {
+  'functional/prefer-tacit': ['error'],
+  'functional/prefer-readonly-type': ['error'],
+  'functional/readonly-type': ['error'],
+  'functional/prefer-property-signatures': ['error'],
+}
+
+/**
+ * @type {import('eslint').Linter.Config['rules']}
+ */
+const prettierRules = {
+  'prettier/prettier': [
+    'error',
+    { singleQuote: true, semi: false, trailingComma: 'all' },
+  ]
+}
+
+/**
+ * @type {import('eslint').Linter.Config['extends']}
+ */
+const a11yExtends = [
+  'plugin:jsx-a11y/recommended',
+  'plugin:lit-a11y/recommended',
+]
+
+/**
+ * @type {import('eslint').Linter.Config}
  */
 module.exports = {
   root: true,
+  extends: [
+    'eslint:recommended',
+  ],
+  plugins: ['prettier', '@typescript-eslint', 'functional', 'jsx-a11y', 'lit-a11y'],
+  env: {
+    node: true,
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    experimentalObjectRestSpread: true,
+  },
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.ts', '*.tsx', '*.mjs', '*.cjs'],
       extends: [
-        'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'plugin:jsx-a11y/recommended',
-        'plugin:lit-a11y/recommended',
+        ...a11yExtends,
       ],
       parserOptions: {
         parser: '@typescript-eslint/parser',
         project: ['./tsconfig.json'],
-        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        }
       },
       parser: '@typescript-eslint/parser',
       rules: {
-        'prettier/prettier': [
-          'error',
-          { singleQuote: true, semi: false, trailingComma: 'all' },
-        ],
-        '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports'}],
-        '@typescript-eslint/prefer-readonly': ['error'],
-        '@typescript-eslint/prefer-readonly-parameter-types': ['error'],
-        'functional/prefer-tacit': ['error'],
-        'functional/prefer-readonly-type': ['error'],
-        'functional/readonly-type': ['error'],
-        'functional/prefer-property-signatures': ['error'],
+        ...prettierRules,
+        ...tsRules,
+        ...functionalrules
       },
       env: {
         browser: true,
-        node: true,
       },
-      plugins: ['prettier', '@typescript-eslint', 'functional', 'jsx-a11y', 'lit-a11y'],
+    },
+    {
+      files: ['*.astro'],
+      parser: 'astro-eslint-parser',
+      extends: [
+        ...a11yExtends,
+        'plugin:astro/recommended'
+      ],
+      parserOptions: {
+        extraFileExtensions: ['.astro', '.mjs'],
+      },
+      rules: {
+        ...prettierRules,
+        ...tsRules,
+        ...functionalrules
+      },
+      env: {
+        browser: true,
+      },
     },
   ],
 }
