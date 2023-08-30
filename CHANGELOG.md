@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/lbenie/linting/compare/v1.2.1...v1.2.2) (2023-08-30)
+
+
+### Bug Fixes
+
+* release stylelint as js file ([8f53a1b](https://github.com/lbenie/linting/commit/8f53a1b9dd642e4d3bd7c5984f2a39cc36d343e0))
+
 ## [1.2.1](https://github.com/lbenie/linting/compare/v1.2.0...v1.2.1) (2023-08-30)
 
 
