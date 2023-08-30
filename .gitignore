@@ -108,5 +108,5 @@ dist
 reports/
 
 # build
-eslint
-stylelint
+eslint/
+stylelint/
