@@ -87,10 +87,9 @@ module.exports = {
         'plugin:astro/recommended'
       ],
       parserOptions: {
-        extraFileExtensions: ['.astro', '.mjs'],
+        extraFileExtensions: ['.astro'],
       },
       rules: {
-        ...prettierRules,
         ...tsRules,
         ...functionalrules
       },
