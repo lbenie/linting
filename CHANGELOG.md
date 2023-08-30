@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lbenie/linting/compare/v1.1.6...v1.2.0) (2023-08-30)
+
+
+### Features
+
+* breaking change renames stylelint config file and adds a11y plugins ([7b1d099](https://github.com/lbenie/linting/commit/7b1d099be8bf3772241a9226241b4b1ad2a39dea))
+
 ## [1.1.6](https://github.com/lbenie/linting/compare/v1.1.5...v1.1.6) (2023-08-24)
 
 
