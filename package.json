@@ -10,6 +10,7 @@
     "stylelint",
     "linting"
   ],
+  "type": "commonjs",
   "license": "MIT",
   "private": false,
   "files": [
@@ -19,7 +20,7 @@
   "main": "./eslint/.eslintrc.js",
   "exports": {
     "./eslint": "./eslint/.eslintrc.js",
-    "./stylelint": "./stylelint/stylelint.config.cjs"
+    "./stylelint": "./stylelint/.stylelintrc.js"
   },
   "types": "dist/types/index.d.ts",
   "scripts": {
