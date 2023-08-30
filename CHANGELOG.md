@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/lbenie/linting/compare/v1.2.0...v1.2.1) (2023-08-30)
+
+
+### Bug Fixes
+
+* create folders on ci ([65b9f72](https://github.com/lbenie/linting/commit/65b9f7229977b8778ad7af0dd1203584d1372cb6))
+
 # [1.2.0](https://github.com/lbenie/linting/compare/v1.1.6...v1.2.0) (2023-08-30)
 
 
