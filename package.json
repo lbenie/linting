@@ -38,7 +38,7 @@
     "@semantic-release/github": "9.0.4",
     "@semantic-release/npm": "10.0.5",
     "@semantic-release/release-notes-generator": "11.0.7",
-    "@types/react": "18.2.21",
+    "@types/react": "18.2.34",
     "@types/semantic-release": "20.0.1",
     "all-contributors-cli": "6.26.1",
     "concurrently": "8.2.1",
