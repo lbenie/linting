@@ -1987,27 +1987,27 @@ eslint-plugin-jsx-a11y@6.7.1:
     object.fromentries "^2.0.6"
     semver "^6.3.0"
 
-eslint-plugin-lit-a11y@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-lit-a11y/-/eslint-plugin-lit-a11y-4.1.0.tgz"
-  integrity sha512-tJUYhKUZ1+NwOBzNHRX7ZETvGgMxWA+m9TsM23oN1qp4hQacTYBafeOhXHh6zyGnHaBIWzmCxW/G7doHeetkAw==
+eslint-plugin-lit-a11y@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-lit-a11y/-/eslint-plugin-lit-a11y-4.1.1.tgz"
+  integrity sha512-PTUEwTMMtbZccrGQUPFfWI3Ope8oF8XEMLUckNbV0IvDTkEbXYlYlvNrkzI92gYKAVaVlNi2QZ/0n8Q3YiOBUg==
   dependencies:
     aria-query "^5.1.3"
     axe-core "^4.3.3"
     axobject-query "^2.2.0"
     dom5 "^3.0.1"
     emoji-regex "^10.2.1"
-    eslint-plugin-lit "^1.6.0"
+    eslint-plugin-lit "^1.10.1"
     eslint-rule-extender "0.0.1"
     language-tags "^1.0.5"
     parse5 "^7.1.2"
     parse5-htmlparser2-tree-adapter "^6.0.1"
     requireindex "~1.2.0"
 
-eslint-plugin-lit@^1.6.0:
-  version "1.9.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-lit/-/eslint-plugin-lit-1.9.1.tgz"
-  integrity sha512-XFFVufVxYJwqRB9sLkDXB7SvV1xi9hrC4HRFEdX1h9+iZ3dm4x9uS7EuT9uaXs6zR3DEgcojia1F7pmvWbc4Gg==
+eslint-plugin-lit@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-lit/-/eslint-plugin-lit-1.10.1.tgz"
+  integrity sha512-3eH++xFpe6efd+TN6B9kW1coULdPyK+3fMNws378nbYQ/HiWIz0+jVcsaGVs9BbLt6kVkDxZmUGF4Ivx3BatkA==
   dependencies:
     parse5 "^6.0.1"
     parse5-htmlparser2-tree-adapter "^6.0.1"
