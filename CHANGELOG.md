@@ -1,3 +1,11 @@
+## [1.3.6](https://github.com/lbenie/linting/compare/v1.3.5...v1.3.6) (2023-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss-scss to v4.0.9 ([ee15219](https://github.com/lbenie/linting/commit/ee15219132ba34fdb7dfb4751cbbb75ede396163))
+* **deps:** update dependency stylelint to v15.11.0 ([194b74c](https://github.com/lbenie/linting/commit/194b74cbd46eb6a033ecaee48dc0aa65cde76710))
+
 ## [1.3.5](https://github.com/lbenie/linting/compare/v1.3.4...v1.3.5) (2023-11-16)
 
 
