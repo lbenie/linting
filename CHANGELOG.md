@@ -1,3 +1,11 @@
+## [1.3.4](https://github.com/lbenie/linting/compare/v1.3.3...v1.3.4) (2023-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.1.0 ([6cec296](https://github.com/lbenie/linting/commit/6cec2969a95a98eaf4852cc217077d67a1ef3583))
+* **deps:** update typescript-eslint monorepo to v6.11.0 ([e544837](https://github.com/lbenie/linting/commit/e544837318c9827342ed72b5c3c1c1d0a5a9528d))
+
 ## [1.3.3](https://github.com/lbenie/linting/compare/v1.3.2...v1.3.3) (2023-09-06)
 
 
