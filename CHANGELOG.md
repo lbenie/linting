@@ -1,3 +1,13 @@
+## [1.3.7](https://github.com/lbenie/linting/compare/v1.3.6...v1.3.7) (2023-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.53.0 ([b3151cb](https://github.com/lbenie/linting/commit/b3151cbf2263b1c498cb6ea9532fda2db71269a3))
+* **deps:** update dependency eslint-plugin-astro to v0.29.1 ([6563eee](https://github.com/lbenie/linting/commit/6563eee5ad593fe36fc8cac24fc44ab662c4d2f1))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.8.0 ([0e803b3](https://github.com/lbenie/linting/commit/0e803b3829fe6e38258c534da11a6d0aa51700b5))
+* **deps:** update dependency eslint-plugin-prettier to v5.0.1 ([a80fa6c](https://github.com/lbenie/linting/commit/a80fa6cbded84677e42e0bacc18fd0350b95d03d))
+
 ## [1.3.6](https://github.com/lbenie/linting/compare/v1.3.5...v1.3.6) (2023-11-16)
 
 
