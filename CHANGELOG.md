@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/lbenie/linting/compare/v1.3.4...v1.3.5) (2023-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-lit-a11y to v4.1.1 ([9d25316](https://github.com/lbenie/linting/commit/9d2531649d9033c56db142aa687ed95b840cb0b7))
+
 ## [1.3.4](https://github.com/lbenie/linting/compare/v1.3.3...v1.3.4) (2023-11-16)
 
 
