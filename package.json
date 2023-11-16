@@ -62,7 +62,7 @@
     "postcss-scss": "4.0.7",
     "postcss-styl": "0.12.3",
     "prettier": "3.1.0",
-    "stylelint": "15.10.3",
+    "stylelint": "15.11.0",
     "stylelint-order": "6.0.3",
     "stylelint-stylus": "0.18.0"
   }
