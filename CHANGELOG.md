@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/lbenie/linting/compare/v1.3.9...v1.4.0) (2023-11-24)
+
+
+### Features
+
+* make readonly types using the keyword ([69f9d2a](https://github.com/lbenie/linting/commit/69f9d2a2bae49e2821184ff9448451e3cb6a04f6))
+
 ## [1.3.9](https://github.com/lbenie/linting/compare/v1.3.8...v1.3.9) (2023-11-23)
 
 
