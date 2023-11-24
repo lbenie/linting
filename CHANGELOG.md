@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/lbenie/linting/compare/v1.5.1...v1.6.0) (2023-11-24)
+
+
+### Features
+
+* ignore inferred types ([0368866](https://github.com/lbenie/linting/commit/0368866c0f85821d76c07d999fbfbbe33360fab0))
+
 ## [1.5.1](https://github.com/lbenie/linting/compare/v1.5.0...v1.5.1) (2023-11-24)
 
 
