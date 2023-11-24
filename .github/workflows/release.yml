@@ -14,9 +14,9 @@ jobs:
       - name: Build
         run: |
           mkdir -p ./eslint
-          cp -f .eslintrc.js ./eslint
+          cp -f eslint.config.js ./eslint
           mkdir -p ./stylelint
-          cp -f .stylelintrc.js ./stylelint
+          cp -f stylelint.config.cjs ./stylelint
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
         with:

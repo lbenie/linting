@@ -10,7 +10,7 @@
     "stylelint",
     "linting"
   ],
-  "type": "commonjs",
+  "type": "module",
   "license": "MIT",
   "private": false,
   "files": [
@@ -32,6 +32,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@eslint/js": "8.54.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
@@ -41,6 +42,7 @@
     "@types/react": "18.2.38",
     "@types/semantic-release": "20.0.6",
     "all-contributors-cli": "6.26.1",
+    "astro": "3.6.0",
     "concurrently": "8.2.2",
     "conventional-changelog-conventionalcommits": "7.0.2",
     "lit": "3.1.0",
@@ -55,9 +57,11 @@
     "eslint": "8.54.0",
     "eslint-plugin-astro": "^0.29.0",
     "eslint-plugin-functional": "6.0.0",
+    "eslint-plugin-jsdoc": "46.9.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-lit-a11y": "4.1.1",
     "eslint-plugin-prettier": "5.0.1",
+    "globals": "13.23.0",
     "postcss": "8.4.31",
     "postcss-scss": "4.0.9",
     "postcss-styl": "0.12.3",

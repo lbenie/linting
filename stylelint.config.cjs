@@ -2,9 +2,7 @@
  * @type {import('stylelint').Config}
  */
 module.exports = {
-  extends: [
-    'stylelint-order',
-  ],
+  extends: ['stylelint-order'],
   plugins: ['stylelint-stylus', 'stylelint-order'],
   overrides: [
     {

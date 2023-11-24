@@ -16,20 +16,24 @@ or
 yarn add -D @lbenie/linting
 ```
 
-Then create a `.eslintrc.js` file at the root of your project and add the following
+Then create a `eslint.config.js` file at the root of your project and add the following
 
 ```js
-module.exports = {
-  extends: [require.resolve('@lbenie/linting/eslint')],
-};
+import rules from '@lbenie/linting/eslint';
+
+export default [
+  ...rules,
+]
 ```
 
-Then create a `.stylelintrc.js` file at the root of your project and add the following
+Then create a `stylelint.config.cjs` file at the root of your project and add the following
 
 ```js
-module.exports = {
-  extends: [require.resolve('@lbenie/linting/stylelint')],
-};
+import rules from '@lbenie/linting/stylelint';
+
+export default [
+  ...rules,
+]
 ```
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
