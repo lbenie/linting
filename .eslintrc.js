@@ -14,7 +14,7 @@ const tsRules = {
 const functionalrules = {
   'functional/prefer-tacit': ['error'],
   'functional/prefer-readonly-type': ['error'],
-  'functional/readonly-type': ['error'],
+  'functional/readonly-type': ['error', 'keyword'],
   'functional/prefer-property-signatures': ['error'],
 }
 
