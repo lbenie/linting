@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/lbenie/linting/compare/v1.5.0...v1.5.1) (2023-11-24)
+
+
+### Bug Fixes
+
+* reference proper files ([337f118](https://github.com/lbenie/linting/commit/337f118b209ecefcab8ef1afd8b7edbbbebca92a))
+
 # [1.5.0](https://github.com/lbenie/linting/compare/v1.4.0...v1.5.0) (2023-11-24)
 
 
