@@ -17,10 +17,10 @@
     "eslint",
     "stylelint"
   ],
-  "main": "./eslint/.eslintrc.js",
+  "main": "./eslint/eslint.config.js",
   "exports": {
-    "./eslint": "./eslint/.eslintrc.js",
-    "./stylelint": "./stylelint/.stylelintrc.js"
+    "./eslint": "./eslint/eslint.config.js",
+    "./stylelint": "./stylelint/stylelint.config.cjs"
   },
   "types": "dist/types/index.d.ts",
   "scripts": {
