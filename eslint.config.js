@@ -74,7 +74,10 @@ const tsRules = {
     { fixStyle: 'inline-type-imports' },
   ],
   '@typescript-eslint/prefer-readonly': ['error'],
-  '@typescript-eslint/prefer-readonly-parameter-types': ['error'],
+  '@typescript-eslint/prefer-readonly-parameter-types': [
+    'error',
+    { ignoreInferredTypes: true },
+  ],
 }
 
 /**
