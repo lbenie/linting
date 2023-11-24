@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/lbenie/linting/compare/v1.4.0...v1.5.0) (2023-11-24)
+
+
+### Bug Fixes
+
+* .js should end in .cjs ([68b036d](https://github.com/lbenie/linting/commit/68b036dcc585cd670a4ac2b17fff3e59b09c6406))
+
+
+### Features
+
+* **eslint:** updates to the new flat config format \n BREAKING CHANGE: this will only work with eslint ESLINT_USE_FLAT_CONFIG flag set to true and using the latest version of eslint ([80dd894](https://github.com/lbenie/linting/commit/80dd8942841e7fa79fb9e9444681e0d338c878a5))
+
 # [1.4.0](https://github.com/lbenie/linting/compare/v1.3.9...v1.4.0) (2023-11-24)
 
 
