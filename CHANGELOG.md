@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/lbenie/linting/compare/v1.6.2...v1.6.3) (2023-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.55.0 ([d52205e](https://github.com/lbenie/linting/commit/d52205e346cc8b061d7b8fd9f10f8cd0e81a86d4))
+
 ## [1.6.2](https://github.com/lbenie/linting/compare/v1.6.1...v1.6.2) (2023-12-01)
 
 
