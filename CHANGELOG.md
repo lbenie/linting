@@ -1,3 +1,11 @@
+## [1.6.4](https://github.com/lbenie/linting/compare/v1.6.3...v1.6.4) (2023-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.32 ([044470b](https://github.com/lbenie/linting/commit/044470b761e52c9a27255d86d3f5eee1b34ec4aa))
+* **deps:** update typescript-eslint monorepo to v6.13.2 ([80ba726](https://github.com/lbenie/linting/commit/80ba7262541fd2960c5f01e87a43cc60c9511dc2))
+
 ## [1.6.3](https://github.com/lbenie/linting/compare/v1.6.2...v1.6.3) (2023-12-05)
 
 
