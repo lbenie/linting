@@ -1,3 +1,11 @@
+## [1.6.6](https://github.com/lbenie/linting/compare/v1.6.5...v1.6.6) (2023-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v13.24.0 ([cb29a89](https://github.com/lbenie/linting/commit/cb29a8943f60121a504dd6dee80fc1a558ec6337))
+* **deps:** update dependency prettier to v3.1.1 ([96f3704](https://github.com/lbenie/linting/commit/96f370473fe997e1e61ef727c04c0762915fc463))
+
 ## [1.6.5](https://github.com/lbenie/linting/compare/v1.6.4...v1.6.5) (2023-12-12)
 
 
