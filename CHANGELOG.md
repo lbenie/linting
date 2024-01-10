@@ -1,3 +1,13 @@
+## [1.6.10](https://github.com/lbenie/linting/compare/v1.6.9...v1.6.10) (2024-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v48 ([4dbeb28](https://github.com/lbenie/linting/commit/4dbeb28107329a73856773c9f09db455bf84b4cd))
+* **deps:** update dependency eslint-plugin-prettier to v5.1.3 ([0627781](https://github.com/lbenie/linting/commit/062778138fae6e09e07a51136b34bed4ee1464b0))
+* **deps:** update dependency postcss to v8.4.33 ([cf42f2b](https://github.com/lbenie/linting/commit/cf42f2b72202769d68ef9f2f406462b7b954c3e7))
+* **deps:** update typescript-eslint monorepo to v6.18.1 ([87b6093](https://github.com/lbenie/linting/commit/87b60932274a4bca4d1b09d3182b88b399ce684f))
+
 ## [1.6.9](https://github.com/lbenie/linting/compare/v1.6.8...v1.6.9) (2023-12-28)
 
 
