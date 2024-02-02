@@ -1,3 +1,12 @@
+## [1.6.13](https://github.com/lbenie/linting/compare/v1.6.12...v1.6.13) (2024-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-astro to v0.31.4 ([7a33c5f](https://github.com/lbenie/linting/commit/7a33c5fbdd986b4af5b66a351212644b38ba2ec8))
+* **deps:** update dependency eslint-plugin-lit-a11y to v4.1.2 ([f2843d0](https://github.com/lbenie/linting/commit/f2843d089ec5f0576f001559a3c704173da9742f))
+* **deps:** update dependency stylelint to v16.2.1 ([dc2805a](https://github.com/lbenie/linting/commit/dc2805a916e7fbfd9dae3501f8bc81d50644e8db))
+
 ## [1.6.12](https://github.com/lbenie/linting/compare/v1.6.11...v1.6.12) (2024-01-29)
 
 
