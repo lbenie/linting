@@ -21,7 +21,7 @@
     "sass"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false,
-    "source.fixAll.stylelint": false,
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always",
   },
 }
