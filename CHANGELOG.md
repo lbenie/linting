@@ -1,3 +1,10 @@
+## [1.6.17](https://github.com/lbenie/linting/compare/v1.6.16...v1.6.17) (2024-02-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.35 ([3eec7f6](https://github.com/lbenie/linting/commit/3eec7f64550b34583e0e41ea71a89c45b2998b13))
+
 ## [1.6.16](https://github.com/lbenie/linting/compare/v1.6.15...v1.6.16) (2024-02-14)
 
 
