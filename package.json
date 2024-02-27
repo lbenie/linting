@@ -39,7 +39,7 @@
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
     "@semantic-release/release-notes-generator": "12.1.0",
-    "@types/react": "18.2.59",
+    "@types/react": "18.2.60",
     "@types/semantic-release": "20.0.6",
     "all-contributors-cli": "6.26.1",
     "astro": "4.4.5",
