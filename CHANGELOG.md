@@ -1,3 +1,11 @@
+## [1.6.18](https://github.com/lbenie/linting/compare/v1.6.17...v1.6.18) (2024-03-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-functional to v6.1.1 ([93b0994](https://github.com/lbenie/linting/commit/93b0994e57991562f921e70a103c101fc949e5e2))
+* **deps:** update typescript-eslint monorepo to v7.2.0 ([5cd3ca2](https://github.com/lbenie/linting/commit/5cd3ca23e22f75e165dca9ad0f6e167a98e93627))
+
 ## [1.6.17](https://github.com/lbenie/linting/compare/v1.6.16...v1.6.17) (2024-02-16)
 
 
