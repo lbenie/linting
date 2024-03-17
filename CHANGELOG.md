@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/lbenie/linting/compare/v1.6.18...v1.7.0) (2024-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.57.0 ([2dcf318](https://github.com/lbenie/linting/commit/2dcf318b679bf9a6b950fe2de50312ec52051f0f))
+* **deps:** update dependency eslint-plugin-jsdoc to v48.2.1 ([e323e48](https://github.com/lbenie/linting/commit/e323e48d15e4bbeff306f033ae59e22883f7a951))
+
+
+### Features
+
+* support root spec json projects ([20dfb60](https://github.com/lbenie/linting/commit/20dfb60d576f8ed3b904a21cfa055a587e4aac3f))
+
 ## [1.6.18](https://github.com/lbenie/linting/compare/v1.6.17...v1.6.18) (2024-03-16)
 
 
