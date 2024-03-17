@@ -121,7 +121,7 @@ const config = [
       parserOptions: {
         ...defaultOptions.languageOptions.parserOptions,
         parser: typescriptParser,
-        project: ['./tsconfig.json'],
+        project: ['./tsconfig.json', './tsconfig.spec.json'],
       },
     },
     plugins: {
