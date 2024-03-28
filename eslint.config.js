@@ -90,6 +90,8 @@ const defaultRules = {
   ...litA11y.configs.recommended.rules,
 }
 
+const defaultTsProjects = ['./tsconfig.json', './tsconfig.spec.json']
+
 /**
  * @type {import('eslint').Linter.FlatConfig[]}
  */
@@ -121,7 +123,7 @@ const config = [
       parserOptions: {
         ...defaultOptions.languageOptions.parserOptions,
         parser: typescriptParser,
-        project: ['./tsconfig.json', './tsconfig.spec.json'],
+        project: [...defaultTsProjects],
       },
     },
     plugins: {
@@ -141,7 +143,7 @@ const config = [
       parserOptions: {
         ...defaultOptions.languageOptions.parserOptions,
         parser: typescriptParser,
-        project: ['./tsconfig.json'],
+        project: [...defaultTsProjects],
       },
     },
     rules: {
