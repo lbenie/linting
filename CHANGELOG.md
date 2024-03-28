@@ -1,3 +1,14 @@
+## [1.7.2](https://github.com/lbenie/linting/compare/v1.7.1...v1.7.2) (2024-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-astro to v0.33.1 ([573f62f](https://github.com/lbenie/linting/commit/573f62f358181b852caef32cb1ff763fa8288930))
+* **deps:** update dependency eslint-plugin-jsdoc to v48.2.2 ([c723a8b](https://github.com/lbenie/linting/commit/c723a8b81f6e18b4e42f3bcd896a8879cf08eaaa))
+* **deps:** update dependency globals to v15 ([b530f3e](https://github.com/lbenie/linting/commit/b530f3e3dfcca96187647bef150663d6cf07ac7a))
+* **deps:** update dependency stylelint to v16.3.1 ([307c957](https://github.com/lbenie/linting/commit/307c957162b96341eedc21d42c0316fc1cf33823))
+* **deps:** update typescript-eslint monorepo to v7.4.0 ([f5273d7](https://github.com/lbenie/linting/commit/f5273d7b0688537e35eb45bdf79e82a023002731))
+
 ## [1.7.1](https://github.com/lbenie/linting/compare/v1.7.0...v1.7.1) (2024-03-28)
 
 
