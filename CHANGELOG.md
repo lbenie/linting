@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/lbenie/linting/compare/v1.7.3...v1.7.4) (2024-03-28)
+
+
+### Bug Fixes
+
+* reference the same ts projects for all TS projects ([a006ea2](https://github.com/lbenie/linting/commit/a006ea291a03f7b1e7e709920348632f8efc9c2f))
+
 ## [1.7.3](https://github.com/lbenie/linting/compare/v1.7.2...v1.7.3) (2024-03-28)
 
 
