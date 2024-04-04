@@ -49,7 +49,7 @@
     "react": "18.2.0",
     "semantic-release": "23.0.7",
     "tsutils": "3.21.0",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.5.0",
