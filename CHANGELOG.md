@@ -1,3 +1,10 @@
+## [1.7.45](https://github.com/lbenie/linting/compare/v1.7.44...v1.7.45) (2024-06-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v15.5.0 ([6f6a872](https://github.com/lbenie/linting/commit/6f6a872a29dacd839d35cda375bbb90c632ba242))
+
 ## [1.7.44](https://github.com/lbenie/linting/compare/v1.7.43...v1.7.44) (2024-06-14)
 
 
