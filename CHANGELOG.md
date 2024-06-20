@@ -1,3 +1,10 @@
+## [1.7.49](https://github.com/lbenie/linting/compare/v1.7.48...v1.7.49) (2024-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.9.0 ([b97e87f](https://github.com/lbenie/linting/commit/b97e87f9a8ca03f21a8694886ceefdbbc9508cd2))
+
 ## [1.7.48](https://github.com/lbenie/linting/compare/v1.7.47...v1.7.48) (2024-06-19)
 
 
