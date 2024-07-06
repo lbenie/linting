@@ -1,3 +1,10 @@
+## [1.7.62](https://github.com/lbenie/linting/compare/v1.7.61...v1.7.62) (2024-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-functional to v6.6.1 ([eb056a2](https://github.com/lbenie/linting/commit/eb056a252d9b4d2f80533d1da52e093a62072c1d))
+
 ## [1.7.61](https://github.com/lbenie/linting/compare/v1.7.60...v1.7.61) (2024-07-05)
 
 
