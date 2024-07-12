@@ -54,7 +54,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.16.0",
     "@typescript-eslint/parser": "7.16.0",
-    "eslint": "8.57.0",
+    "eslint": "9.6.0",
     "eslint-plugin-astro": "1.2.3",
     "eslint-plugin-functional": "6.6.3",
     "eslint-plugin-jsdoc": "48.7.0",
