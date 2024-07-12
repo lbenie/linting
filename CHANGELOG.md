@@ -1,3 +1,10 @@
+## [1.7.69](https://github.com/lbenie/linting/compare/v1.7.68...v1.7.69) (2024-07-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v9 ([d146b00](https://github.com/lbenie/linting/commit/d146b004afe632215de01f018f52e508df0b38da))
+
 ## [1.7.68](https://github.com/lbenie/linting/compare/v1.7.67...v1.7.68) (2024-07-11)
 
 
