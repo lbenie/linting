@@ -18,7 +18,7 @@ jobs:
           mkdir -p ./stylelint
           cp -f stylelint.config.cjs ./stylelint
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v3
+        uses: cycjimmy/semantic-release-action@v4
         with:
           semantic_version: 19
         env:
