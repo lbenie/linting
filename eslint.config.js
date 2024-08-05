@@ -9,6 +9,7 @@ import prettier from 'eslint-plugin-prettier'
 import astroParser from 'astro-eslint-parser'
 import astro from 'eslint-plugin-astro'
 import litA11y from 'eslint-plugin-lit-a11y'
+import { existsSync } from 'node:fs'
 
 /**
  * @type {Pick<import('eslint').Linter.FlatConfig, 'parserOptions' | 'ignores' | 'languageOptions'>}
@@ -90,7 +91,24 @@ const defaultRules = {
   ...litA11y.configs.recommended.rules,
 }
 
-const defaultTsProjects = ['./tsconfig.json', './tsconfig.spec.json']
+/**
+ * @type {import('@typescript-eslint/parser').ParserOptions['project']}
+ * @returns {string[]} an array of paths to tsconfig files
+ */
+const defaultTsProjects = () => {
+  const paths = []
+
+  if (existsSync('./tsconfig.json')) {
+    paths.push('./tsconfig.json')
+  }
+  if (existsSync('./tsconfig.spec.json')) {
+    paths.push('./tsconfig.spec.json')
+  }
+
+  return paths
+}
+
+const project = defaultTsProjects()
 
 /**
  * @type {import('eslint').Linter.FlatConfig[]}
@@ -123,7 +141,7 @@ const config = [
       parserOptions: {
         ...defaultOptions.languageOptions.parserOptions,
         parser: typescriptParser,
-        project: [...defaultTsProjects],
+        project,
       },
     },
     plugins: {
@@ -143,7 +161,7 @@ const config = [
       parserOptions: {
         ...defaultOptions.languageOptions.parserOptions,
         parser: typescriptParser,
-        project: [...defaultTsProjects],
+        project,
       },
     },
     rules: {
