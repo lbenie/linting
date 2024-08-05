@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/lbenie/linting/compare/v1.7.69...v1.8.0) (2024-08-05)
+
+
+### Features
+
+* update deps to latest ([423db4d](https://github.com/lbenie/linting/commit/423db4d85ed2b520b0d02ddefc020891210e3f84))
+
 ## [1.7.69](https://github.com/lbenie/linting/compare/v1.7.68...v1.7.69) (2024-07-12)
 
 
