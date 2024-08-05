@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/lbenie/linting/compare/v1.8.0...v1.8.1) (2024-08-05)
+
+
+### Bug Fixes
+
+* check if tsconfig file exist ([a5e2a75](https://github.com/lbenie/linting/commit/a5e2a75a595d2d515073017e9acc3e4ab8299d62))
+
 # [1.8.0](https://github.com/lbenie/linting/compare/v1.7.69...v1.8.0) (2024-08-05)
 
 
