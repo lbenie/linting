@@ -87,7 +87,7 @@ const tsRules = {
 const defaultRules = {
   ...functionalrules,
   ...prettierRules,
-  ...jsxA11y.configs.recommended.rules,
+  ...jsxA11y.flatConfigs.recommended,
   ...litA11y.configs.recommended.rules,
 }
 
