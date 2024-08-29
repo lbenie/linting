@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/lbenie/linting/compare/v1.8.2...v1.8.3) (2024-08-29)
+
+
+### Bug Fixes
+
+* revert jsxa11y rules ([024e47e](https://github.com/lbenie/linting/commit/024e47ef80576356ce6dd3ce1603ef2bf6276f6a))
+
 ## [1.8.2](https://github.com/lbenie/linting/compare/v1.8.1...v1.8.2) (2024-08-06)
 
 
