@@ -1,5 +1,5 @@
 import js from '@eslint/js'
-import jsxA11y from 'eslint-plugin-jsx-a11y'
+// import jsxA11y from 'eslint-plugin-jsx-a11y'
 import globals from 'globals'
 import jsdoc from 'eslint-plugin-jsdoc'
 import tsElint from '@typescript-eslint/eslint-plugin'
@@ -87,7 +87,7 @@ const tsRules = {
 const defaultRules = {
   ...functionalrules,
   ...prettierRules,
-  ...jsxA11y.configs.recommended.rules,
+  // ...jsxA11y.configs.recommended.rules,
   ...litA11y.configs.recommended.rules,
 }
 

@@ -58,7 +58,6 @@
     "eslint-plugin-astro": "1.2.3",
     "eslint-plugin-functional": "7.0.0",
     "eslint-plugin-jsdoc": "48.11.0",
-    "eslint-plugin-jsx-a11y": "6.9.0",
     "eslint-plugin-lit-a11y": "4.1.4",
     "eslint-plugin-prettier": "5.2.1",
     "globals": "15.9.0",
