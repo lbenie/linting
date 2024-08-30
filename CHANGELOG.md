@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/lbenie/linting/compare/v1.8.3...v1.8.4) (2024-08-30)
+
+
+### Bug Fixes
+
+* remove jsx a11y since it's not supported for flat config ([23dd09e](https://github.com/lbenie/linting/commit/23dd09e17b3f28c47e4a43ef3eadf4238ebb298e))
+
 ## [1.8.3](https://github.com/lbenie/linting/compare/v1.8.2...v1.8.3) (2024-08-29)
 
 
