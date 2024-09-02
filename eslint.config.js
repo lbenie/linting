@@ -39,7 +39,7 @@ const defaultOptions = {
 const defaultPlugins = {
   functional,
   jsdoc,
-  'jsx-a11y': jsxA11y,
+  // 'jsx-a11y': jsxA11y,
   '@typescript-eslint': tsElint,
   prettier,
   'lit-a11y': litA11y,
