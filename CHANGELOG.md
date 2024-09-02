@@ -1,3 +1,10 @@
+## [1.8.10](https://github.com/lbenie/linting/compare/v1.8.9...v1.8.10) (2024-09-02)
+
+
+### Bug Fixes
+
+* remove jsx-a11y from plugins ([b8e440d](https://github.com/lbenie/linting/commit/b8e440da746a061baf550e2959cc342ffded1f72))
+
 ## [1.8.9](https://github.com/lbenie/linting/compare/v1.8.8...v1.8.9) (2024-09-01)
 
 
