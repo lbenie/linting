@@ -1,3 +1,10 @@
+## [1.8.35](https://github.com/lbenie/linting/compare/v1.8.34...v1.8.35) (2024-10-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v50.4.3 ([896c665](https://github.com/lbenie/linting/commit/896c665819d71adf6a7a3792ed5a01467e7ca51c))
+
 ## [1.8.34](https://github.com/lbenie/linting/compare/v1.8.33...v1.8.34) (2024-10-15)
 
 
