@@ -1,3 +1,10 @@
+## [1.8.62](https://github.com/lbenie/linting/compare/v1.8.61...v1.8.62) (2024-12-16)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v8.18.1 ([#500](https://github.com/lbenie/linting/issues/500)) ([c8073e8](https://github.com/lbenie/linting/commit/c8073e8e1eac303bfecf37209b600d859d64366f))
+
 ## [1.8.61](https://github.com/lbenie/linting/compare/v1.8.60...v1.8.61) (2024-12-15)
 
 
