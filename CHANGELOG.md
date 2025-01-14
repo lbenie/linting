@@ -1,3 +1,10 @@
+## [1.8.72](https://github.com/lbenie/linting/compare/v1.8.71...v1.8.72) (2025-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.0 ([#515](https://github.com/lbenie/linting/issues/515)) ([64dc9fb](https://github.com/lbenie/linting/commit/64dc9fb5a97cef15f230d38907f227ebfcbb80cc))
+
 ## [1.8.71](https://github.com/lbenie/linting/compare/v1.8.70...v1.8.71) (2025-01-14)
 
 
