@@ -59,7 +59,7 @@
     "eslint-plugin-functional": "7.3.0",
     "eslint-plugin-jsdoc": "50.6.1",
     "eslint-plugin-lit-a11y": "4.1.4",
-    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-prettier": "5.2.2",
     "globals": "15.14.0",
     "postcss": "8.5.1",
     "postcss-scss": "4.0.9",
