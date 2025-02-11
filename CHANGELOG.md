@@ -1,3 +1,10 @@
+## [1.8.91](https://github.com/lbenie/linting/compare/v1.8.90...v1.8.91) (2025-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v9.20.1 ([#544](https://github.com/lbenie/linting/issues/544)) ([39899e7](https://github.com/lbenie/linting/commit/39899e786fa080253b61c10014c8b165804533d0))
+
 ## [1.8.90](https://github.com/lbenie/linting/compare/v1.8.89...v1.8.90) (2025-02-11)
 
 
