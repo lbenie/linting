@@ -1,3 +1,11 @@
+## [1.8.116](https://github.com/lbenie/linting/compare/v1.8.115...v1.8.116) (2025-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-functional to v9 ([ac92496](https://github.com/lbenie/linting/commit/ac924960663de15e3fdd5a454c2827cc3679b158))
+* **deps:** update dependency globals to v16 ([e3050e1](https://github.com/lbenie/linting/commit/e3050e1be41a3f4637f2fe6c1e8e7328a82d3ae3))
+
 ## [1.8.115](https://github.com/lbenie/linting/compare/v1.8.114...v1.8.115) (2025-04-02)
 
 
