@@ -1,3 +1,10 @@
+## [1.8.117](https://github.com/lbenie/linting/compare/v1.8.116...v1.8.117) (2025-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update eslint monorepo to v9.24.0 ([#597](https://github.com/lbenie/linting/issues/597)) ([81cfc0c](https://github.com/lbenie/linting/commit/81cfc0cd1059b26768f3f542f342b2ca76e27562))
+
 ## [1.8.116](https://github.com/lbenie/linting/compare/v1.8.115...v1.8.116) (2025-04-04)
 
 
