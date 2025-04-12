@@ -45,7 +45,7 @@
     "astro": "5.6.1",
     "concurrently": "9.1.2",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "lit": "3.2.1",
+    "lit": "3.3.0",
     "react": "19.1.0",
     "semantic-release": "24.2.3",
     "tsutils": "3.21.0",
