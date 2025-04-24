@@ -1,3 +1,10 @@
+## [1.8.125](https://github.com/lbenie/linting/compare/v1.8.124...v1.8.125) (2025-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v16.19.0 ([#617](https://github.com/lbenie/linting/issues/617)) ([36a9a3f](https://github.com/lbenie/linting/commit/36a9a3f067a6b1d1bbbba4e8b50552b4f160010d))
+
 ## [1.8.124](https://github.com/lbenie/linting/compare/v1.8.123...v1.8.124) (2025-04-23)
 
 
