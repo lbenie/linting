@@ -1,3 +1,10 @@
+## [1.8.131](https://github.com/lbenie/linting/compare/v1.8.130...v1.8.131) (2025-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v5.4.0 ([#628](https://github.com/lbenie/linting/issues/628)) ([1b77ce4](https://github.com/lbenie/linting/commit/1b77ce4f2b2a2e253ccba8008074b4e1cb2a9801))
+
 ## [1.8.130](https://github.com/lbenie/linting/compare/v1.8.129...v1.8.130) (2025-05-04)
 
 
