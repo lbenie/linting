@@ -1,3 +1,10 @@
+## [1.8.158](https://github.com/lbenie/linting/compare/v1.8.157...v1.8.158) (2025-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.6.1 ([#681](https://github.com/lbenie/linting/issues/681)) ([ef7340f](https://github.com/lbenie/linting/commit/ef7340f4b76f3bc4ebc362f020bc89844a5009eb))
+
 ## [1.8.157](https://github.com/lbenie/linting/compare/v1.8.156...v1.8.157) (2025-06-25)
 
 
