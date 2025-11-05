@@ -1,3 +1,10 @@
+## [1.8.201](https://github.com/lbenie/linting/compare/v1.8.200...v1.8.201) (2025-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-astro to v1.5.0 ([#802](https://github.com/lbenie/linting/issues/802)) ([4150a08](https://github.com/lbenie/linting/commit/4150a08ffc8752b3ea7bf695a9809b97853a5827))
+
 ## [1.8.200](https://github.com/lbenie/linting/compare/v1.8.199...v1.8.200) (2025-11-04)
 
 
