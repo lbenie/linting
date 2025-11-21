@@ -1,3 +1,10 @@
+## [1.8.205](https://github.com/lbenie/linting/compare/v1.8.204...v1.8.205) (2025-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-lit-a11y to v5 ([5b3a09a](https://github.com/lbenie/linting/commit/5b3a09aec5e10eaa827f5b71443f45ef33b00490))
+
 ## [1.8.204](https://github.com/lbenie/linting/compare/v1.8.203...v1.8.204) (2025-11-21)
 
 
