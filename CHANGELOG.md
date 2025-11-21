@@ -1,3 +1,11 @@
+## [1.8.204](https://github.com/lbenie/linting/compare/v1.8.203...v1.8.204) (2025-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v61 ([3bdebc0](https://github.com/lbenie/linting/commit/3bdebc08346eb97578215aa9b8604256e65238d0))
+* **deps:** update dependency stylelint-order to v7 ([64f2513](https://github.com/lbenie/linting/commit/64f25139558a3329cd637ac92e2571e55f26114c))
+
 ## [1.8.203](https://github.com/lbenie/linting/compare/v1.8.202...v1.8.203) (2025-11-18)
 
 
