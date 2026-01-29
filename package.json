@@ -42,7 +42,7 @@
     "@types/react": "19.2.10",
     "@types/semantic-release": "21.1.0",
     "all-contributors-cli": "6.26.1",
-    "astro": "5.16.16",
+    "astro": "5.17.1",
     "concurrently": "9.2.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "lit": "3.3.2",
