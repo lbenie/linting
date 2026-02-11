@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/lbenie/linting/compare/v2.0.2...v2.1.0) (2026-02-11)
+
+
+### Features
+
+* indent with space ([3bf30eb](https://github.com/lbenie/linting/commit/3bf30eb7f5010db0b046693ff5d1ce1b963baa69))
+
 ## [2.0.2](https://github.com/lbenie/linting/compare/v2.0.1...v2.0.2) (2026-02-11)
 
 
