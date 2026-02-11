@@ -14,7 +14,7 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "biome"
+    "biome.jsonc"
   ],
   "main": "./biome/biome.jsonc",
   "exports": {

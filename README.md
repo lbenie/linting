@@ -1,39 +1,26 @@
 # @lbenie/linting
 
-My personal opinionated linting configuration for eslint prettier and stylelint
+My personal opinionated linting configuration for biome
 
 ## Usage
 
 Inside your project install the package
 
-```bash
-npm i -D @lbenie/linting
-```
+| Package Manager | Command |
+|-----------------|---------|
+| npm | `npm i -D @lbenie/linting` |
+| yarn | `yarn add -D @lbenie/linting` |
+| pnpm | `pnpm add -D @lbenie/linting` |
+| bun | `bun add -d @lbenie/linting` |
 
-or
+Then create a `biome.jsonc` file at the root of your project and add the following
 
-```bash
-yarn add -D @lbenie/linting
-```
-
-Then create a `eslint.config.js` file at the root of your project and add the following
-
-```js
-import rules from '@lbenie/linting/eslint';
-
-export default [
-  ...rules,
-]
-```
-
-Then create a `stylelint.config.cjs` file at the root of your project and add the following
-
-```js
-import rules from '@lbenie/linting/stylelint';
-
-export default [
-  ...rules,
-]
+```jsonc
+{
+  "extends": [
+    "@lbenie/biome"
+  ],
+}
 ```
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
