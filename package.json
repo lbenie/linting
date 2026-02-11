@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "my opiniated rules",
   "repository": {
-    "url": "https://github.com/lbenie/linting"
+    "url": "git+https://github.com/lbenie/linting.git"
   },
   "keywords": [
     "biome",
