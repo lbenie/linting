@@ -40,5 +40,6 @@
 				"noUnassignedVariables": "error"
 			}
 		}
-	}
+	},
+	"root": true
 }
