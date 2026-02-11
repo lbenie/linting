@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/lbenie/linting/compare/v2.0.1...v2.0.2) (2026-02-11)
+
+
+### Bug Fixes
+
+* properly release ([437ad14](https://github.com/lbenie/linting/commit/437ad14dd77d4ca16cb400d9543040b587358e85))
+
 ## [2.0.1](https://github.com/lbenie/linting/compare/v2.0.0...v2.0.1) (2026-02-11)
 
 
