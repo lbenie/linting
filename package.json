@@ -6,33 +6,29 @@
     "url": "https://github.com/lbenie/linting"
   },
   "keywords": [
-    "eslint",
-    "stylelint",
+    "biome",
+    "lint",
     "linting"
   ],
   "type": "module",
   "license": "MIT",
   "private": false,
   "files": [
-    "eslint",
-    "stylelint"
+    "biome"
   ],
-  "main": "./eslint/eslint.config.js",
+  "main": "./biome/biome.jsonc",
   "exports": {
-    "./eslint": "./eslint/eslint.config.js",
-    "./stylelint": "./stylelint/stylelint.config.cjs"
+    "./biome": "./biome/biome.jsonc"
   },
-  "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "concurrently -n vitest 'vitest --coverage'",
     "test:vitest": "vitest",
-    "lint": "concurrently -n eslint, stylelint 'eslint src' 'stylelint src/**/*.styl'"
+    "lint": "biome check"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@eslint/js": "9.39.2",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
@@ -40,10 +36,8 @@
     "@semantic-release/npm": "13.1.4",
     "@semantic-release/release-notes-generator": "14.1.0",
     "@types/react": "19.2.14",
-    "@types/semantic-release": "21.1.0",
     "all-contributors-cli": "6.26.1",
     "astro": "5.17.1",
-    "concurrently": "9.2.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "lit": "3.3.2",
     "react": "19.2.4",
@@ -52,21 +46,6 @@
     "typescript": "5.9.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.55.0",
-    "@typescript-eslint/parser": "8.55.0",
-    "eslint": "9.39.2",
-    "eslint-plugin-astro": "1.5.0",
-    "eslint-plugin-functional": "9.0.2",
-    "eslint-plugin-jsdoc": "61.7.1",
-    "eslint-plugin-lit-a11y": "5.1.1",
-    "eslint-plugin-prettier": "5.5.5",
-    "globals": "16.5.0",
-    "postcss": "8.5.6",
-    "postcss-scss": "4.0.9",
-    "postcss-styl": "0.12.3",
-    "prettier": "3.8.1",
-    "stylelint": "16.26.1",
-    "stylelint-order": "7.0.1",
-    "stylelint-stylus": "1.0.0"
+    "@biomejs/biome": "2.3.14"
   }
 }
