@@ -1,45 +1,49 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
-	"linter": {
-		"rules": {
-			"recommended": true,
-			"correctness": {
-				"noUndeclaredVariables": "error"
-			},
-			"nursery": {
-				"noDeprecatedImports": "error",
-				"noDuplicateEnumValueNames": "error",
-				"noDuplicateEnumValues": "error",
-				"noImportCycles": "error",
-				"noShadow": "error",
-				"noUnnecessaryConditions": "error",
-				"noUnresolvedImports": "error",
-				"noUnusedExpressions": "error",
-				"noUselessCatchBinding": "error",
-				"noUselessUndefined": "error",
-				"useAwaitThenable": "error",
-				"useConsistentArrowReturn": "error",
-				"useExhaustiveSwitchCases": "error",
-				"useSpread": "error"
-			},
-			"performance": {
-				"noAwaitInLoops": "error",
-				"noBarrelFile": "error",
-				"noReExportAll": "error"
-			},
-			"style": {
-				"noCommonJs": "warn",
-				"noDefaultExport": "error",
-				"noDoneCallback": "error",
-				"noEnum": "error",
-				"noExportedImports": "error",
-				"noMagicNumbers": "error",
-				"useReactFunctionComponents": "error"
-			},
-			"suspicious": {
-				"noUnassignedVariables": "error"
-			}
-		}
-	},
-	"root": true
+  "$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
+  "linter": {
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUndeclaredVariables": "error"
+      },
+      "nursery": {
+        "noDeprecatedImports": "error",
+        "noDuplicateEnumValueNames": "error",
+        "noDuplicateEnumValues": "error",
+        "noImportCycles": "error",
+        "noShadow": "error",
+        "noUnnecessaryConditions": "error",
+        "noUnresolvedImports": "error",
+        "noUnusedExpressions": "error",
+        "noUselessCatchBinding": "error",
+        "noUselessUndefined": "error",
+        "useAwaitThenable": "error",
+        "useConsistentArrowReturn": "error",
+        "useExhaustiveSwitchCases": "error",
+        "useSpread": "error"
+      },
+      "performance": {
+        "noAwaitInLoops": "error",
+        "noBarrelFile": "error",
+        "noReExportAll": "error"
+      },
+      "style": {
+        "noCommonJs": "warn",
+        "noDefaultExport": "error",
+        "noDoneCallback": "error",
+        "noEnum": "error",
+        "noExportedImports": "error",
+        "noMagicNumbers": "error",
+        "useReactFunctionComponents": "error"
+      },
+      "suspicious": {
+        "noUnassignedVariables": "error"
+      }
+    }
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 120
+  },
+  "root": true
 }
