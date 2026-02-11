@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/lbenie/linting/compare/v2.0.0...v2.0.1) (2026-02-11)
+
+
+### Bug Fixes
+
+* proper documentation ([58b3228](https://github.com/lbenie/linting/commit/58b32286f4258d926c19efb2b80bf2152d999caa))
+
 # [2.0.0](https://github.com/lbenie/linting/compare/v1.8.217...v2.0.0) (2026-02-11)
 
 
