@@ -1,3 +1,33 @@
+# [2.0.0](https://github.com/lbenie/linting/compare/v1.8.217...v2.0.0) (2026-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v61.7.1 ([#854](https://github.com/lbenie/linting/issues/854)) ([07eba1a](https://github.com/lbenie/linting/commit/07eba1afb545361de583f9785293cbeb66e04af1))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.5 ([#860](https://github.com/lbenie/linting/issues/860)) ([52dd479](https://github.com/lbenie/linting/commit/52dd479a517e7574cebac56945ca0064eca8ff7d))
+* **deps:** update dependency prettier to v3.8.0 ([#861](https://github.com/lbenie/linting/issues/861)) ([e898734](https://github.com/lbenie/linting/commit/e898734322111b7f259d4c8ff4a787dc956dd3b5))
+* **deps:** update dependency prettier to v3.8.1 ([#869](https://github.com/lbenie/linting/issues/869)) ([66db31d](https://github.com/lbenie/linting/commit/66db31d76937bed1536c6a409aa2bc58401339f3))
+* **deps:** update dependency stylelint-order to v7.0.1 ([#849](https://github.com/lbenie/linting/issues/849)) ([4cd5ed3](https://github.com/lbenie/linting/commit/4cd5ed37330b4b93e59fb63746af7b056bf9fc2d))
+* **deps:** update eslint monorepo to v9.39.2 ([#844](https://github.com/lbenie/linting/issues/844)) ([bd226cc](https://github.com/lbenie/linting/commit/bd226cceb25e15be37f76d22f15e7b9cbdad95c6))
+* **deps:** update typescript-eslint monorepo to v8.50.0 ([#845](https://github.com/lbenie/linting/issues/845)) ([653e1b6](https://github.com/lbenie/linting/commit/653e1b6e01d31c2a45fdc2aad17247b8d409d905))
+* **deps:** update typescript-eslint monorepo to v8.50.1 ([#847](https://github.com/lbenie/linting/issues/847)) ([cf5d02b](https://github.com/lbenie/linting/commit/cf5d02bb08e6be95c89acde03581c9155a73acca))
+* **deps:** update typescript-eslint monorepo to v8.51.0 ([#850](https://github.com/lbenie/linting/issues/850)) ([64dc14e](https://github.com/lbenie/linting/commit/64dc14ef5fe8de7c5d44c4c6ecd7aa5a790c520c))
+* **deps:** update typescript-eslint monorepo to v8.52.0 ([#852](https://github.com/lbenie/linting/issues/852)) ([85feb15](https://github.com/lbenie/linting/commit/85feb156fd273f41db482d809d0b75790b662fa8))
+* **deps:** update typescript-eslint monorepo to v8.53.0 ([#859](https://github.com/lbenie/linting/issues/859)) ([c23ddf1](https://github.com/lbenie/linting/commit/c23ddf1cd29a39ff79bfbb044e8ca6d9882176fe))
+* **deps:** update typescript-eslint monorepo to v8.53.1 ([#866](https://github.com/lbenie/linting/issues/866)) ([8b12c7b](https://github.com/lbenie/linting/commit/8b12c7bb4aba3df0f41f63995081b86d5bb0b5fc))
+* **deps:** update typescript-eslint monorepo to v8.54.0 ([#876](https://github.com/lbenie/linting/issues/876)) ([673e620](https://github.com/lbenie/linting/commit/673e62005533b7d47d0a69ce2025faf14a1c06b9))
+* **deps:** update typescript-eslint monorepo to v8.55.0 ([#885](https://github.com/lbenie/linting/issues/885)) ([ce6055a](https://github.com/lbenie/linting/commit/ce6055a31f69bc14ba7706aeeacc74589b0b48ee))
+
+
+### Features
+
+* use biome as linter and formatter ([38b38d1](https://github.com/lbenie/linting/commit/38b38d1dee7d03aae3ed29fadd350721ec69aafb))
+
+
+### BREAKING CHANGES
+
+* migrate eslint, prettier and stylelint over to biome, for performance
+
 ## [1.8.217](https://github.com/lbenie/linting/compare/v1.8.216...v1.8.217) (2025-12-08)
 
 
