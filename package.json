@@ -1,6 +1,6 @@
 {
   "name": "@lbenie/linting",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "my opiniated rules",
   "repository": {
     "url": "git+https://github.com/lbenie/linting.git"
