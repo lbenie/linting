@@ -46,6 +46,6 @@
     "typescript": "5.9.3"
   },
   "dependencies": {
-    "@biomejs/biome": "2.3.15"
+    "@biomejs/biome": "2.4.0"
   }
 }
