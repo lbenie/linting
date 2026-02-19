@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/lbenie/linting/compare/v2.1.4...v2.1.5) (2026-02-19)
+
+
+### Bug Fixes
+
+* biome schema ([49bec14](https://github.com/lbenie/linting/commit/49bec140cdeae320ad7b880b25fb325d051f15ca))
+
 ## [2.1.4](https://github.com/lbenie/linting/compare/v2.1.3...v2.1.4) (2026-02-17)
 
 
