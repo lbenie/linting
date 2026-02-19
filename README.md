@@ -18,7 +18,7 @@ Then create a `biome.jsonc` file at the root of your project and add the followi
 ```jsonc
 {
   "extends": [
-    "@lbenie/biome"
+    "@lbenie/linting/biome"
   ],
 }
 ```

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.4.2/schema.json",
   "linter": {
     "rules": {
       "recommended": true,
@@ -7,18 +7,11 @@
         "noUndeclaredVariables": "error"
       },
       "nursery": {
-        "noDeprecatedImports": "error",
         "noDuplicateEnumValueNames": "error",
         "noDuplicateEnumValues": "error",
-        "noImportCycles": "error",
         "noShadow": "error",
         "noUnnecessaryConditions": "error",
-        "noUnresolvedImports": "error",
-        "noUnusedExpressions": "error",
-        "noUselessCatchBinding": "error",
-        "noUselessUndefined": "error",
         "useAwaitThenable": "error",
-        "useConsistentArrowReturn": "error",
         "useExhaustiveSwitchCases": "error",
         "useSpread": "error"
       },

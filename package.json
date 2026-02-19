@@ -16,9 +16,9 @@
   "files": [
     "biome.jsonc"
   ],
-  "main": "./biome/biome.jsonc",
+  "main": "biome.jsonc",
   "exports": {
-    "./biome": "./biome/biome.jsonc"
+    "./biome": "./biome.jsonc"
   },
   "scripts": {
     "test": "concurrently -n vitest 'vitest --coverage'",

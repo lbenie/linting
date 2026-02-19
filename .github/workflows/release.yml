@@ -11,10 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Build
-        run: |
-          mkdir -p ./biome
-          cp -f biome.jsonc ./biome
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v6
         env:
