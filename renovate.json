@@ -1,8 +1,26 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "packageRules": [
+    {
+      "matchPackageNames": ["@biomejs/biome"],
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "postUpgradeTasks": {
+        "commands": ["npx @biomejs/biome migrate --write"],
+        "fileFilters": ["biome.json", "biome.jsonc"],
+        "executionMode": "branch"
+      }
+    },
+    {
+      "matchPackageNames": ["@biomejs/biome"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "postUpgradeTasks": {
+        "commands": ["npx @biomejs/biome migrate --write"],
+        "fileFilters": ["biome.json", "biome.jsonc"],
+        "executionMode": "branch"
+      }
+    },
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
