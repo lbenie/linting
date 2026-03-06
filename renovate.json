@@ -1,5 +1,6 @@
 {
   "extends": ["config:base"],
+  "allowedPostUpgradeCommands": ["^npx @biomejs/biome migrate --write$"],
   "packageRules": [
     {
       "matchPackageNames": ["@biomejs/biome"],
