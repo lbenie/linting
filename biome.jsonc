@@ -1,19 +1,15 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.14/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.5.3/schema.json",
   "linter": {
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "correctness": {
-        "noUndeclaredVariables": "error"
+        "noUndeclaredVariables": "error",
+        "noDuplicateEnumValueNames": "error"
       },
       "nursery": {
-        "noDuplicateEnumValueNames": "error",
-        "noDuplicateEnumValues": "error",
-        "noShadow": "error",
-        "noUnnecessaryConditions": "error",
         "useAwaitThenable": "error",
-        "useExhaustiveSwitchCases": "error",
-        "useSpread": "error"
+        "useExhaustiveSwitchCases": "error"
       },
       "performance": {
         "noAwaitInLoops": "error",
@@ -27,10 +23,14 @@
         "noEnum": "error",
         "noExportedImports": "error",
         "noMagicNumbers": "error",
-        "useReactFunctionComponents": "error"
+        "useReactFunctionComponents": "error",
+        "useSpreadOverApply": "error"
       },
       "suspicious": {
-        "noUnassignedVariables": "error"
+        "noUnassignedVariables": "error",
+        "noDuplicateEnumValues": "error",
+        "noShadow": "error",
+        "noUnnecessaryConditions": "error"
       }
     }
   },
