@@ -41,7 +41,7 @@
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lit": "3.3.3",
     "react": "19.2.7",
-    "semantic-release": "25.0.6",
+    "semantic-release": "25.0.7",
     "tsutils": "3.21.0",
     "typescript": "6.0.3"
   },
