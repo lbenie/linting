@@ -38,7 +38,7 @@
     "@types/react": "19.2.18",
     "all-contributors-cli": "6.26.1",
     "astro": "7.2.4",
-    "conventional-changelog-conventionalcommits": "10.3.0",
+    "conventional-changelog-conventionalcommits": "10.4.0",
     "lit": "3.3.3",
     "react": "19.2.8",
     "semantic-release": "25.0.9",
