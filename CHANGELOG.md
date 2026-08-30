@@ -1,3 +1,10 @@
+## [2.1.19](https://github.com/lbenie/linting/compare/v2.1.18...v2.1.19) (2026-08-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @biomejs/biome to v2.5.10 ([88a2adf](https://github.com/lbenie/linting/commit/88a2adf78a7f770667591f79ea4315ebfccc2cc2))
+
 ## [2.1.18](https://github.com/lbenie/linting/compare/v2.1.17...v2.1.18) (2026-08-24)
 
 
